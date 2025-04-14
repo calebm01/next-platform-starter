@@ -29,7 +29,7 @@ export default function Page() {
             <section>
                 <ContextAlert className="mb-6" />
                 <h1 className="mb-4">Caleb Mouritsen - Portfolio</h1>
-                <p className="mb-6 text-lg">A brief overview of projects I\'ve done en route to my Bachelor\'s Degree at Weber State University</p>
+                <p className="mb-6 text-lg">A brief overview of projects Ive done en route to my Bachelors Degree at Weber State University</p>
                 <Link href="https://github.com/calebm01" className="btn btn-lg sm:min-w-64">
                     View my github profile
                 </Link>
