@@ -61,11 +61,40 @@ export default function Page() {
             <section>
                 <h2 className="mb-6">A learning management system myself and my group were tasked to create for our Software Engineering II class at Weber State University.
                     This project is meant to invoke the systems employed in a well known service like Canvas. </h2>
-                <Markdown content={nextImageSnippet} className="mb-8" />
                 <figure>
                     <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
                         <Image
                             src="/images/ServiCodeHome.png"
+                            priority
+                            fill={true}
+                            style={{ objectFit: 'contain' }}
+                            sizes="(max-width: 1024px) 100vw, 1024px"
+                            alt="Corgi"
+                        />
+                    </div>
+                </figure>
+            </section>
+
+            <section>
+            <h1>Pixel Perspective</h1>
+                <h2 className="mb-6">A website meant to invoke the community driven review site LetterBoxd but for video game as opposed to movies.
+                    This site is my group's project for Weber State's capstone class. </h2>
+                <figure>
+                    <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
+                        <Image
+                            src="/images/PixelPerspectiveMain.png"
+                            priority
+                            fill={true}
+                            style={{ objectFit: 'contain' }}
+                            sizes="(max-width: 1024px) 100vw, 1024px"
+                            alt="Corgi"
+                        />
+                    </div>
+                </figure>
+                <figure>
+                    <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
+                        <Image
+                            src="/images/PixelPerspectiveProfile.png"
                             priority
                             fill={true}
                             style={{ objectFit: 'contain' }}
