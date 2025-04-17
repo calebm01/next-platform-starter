@@ -20,7 +20,6 @@ export default function FallbackPage() {
                             src="/images/AirlineReservation.png"
                             priority
                             fill={true}
-                            style={{ objectFit: 'contain' }}
                             sizes="(max-width: 1024px) 100vw, 1024px"
                             alt="Corgi"
                         />
@@ -32,7 +31,6 @@ export default function FallbackPage() {
                         src="/images/AirlineReservation2.png"
                         priority
                         fill={true}
-                        style={{ objectFit: 'contain' }}
                         sizes="(max-width: 1024px) 100vw, 1024px"
                         alt="Corgi"
                     />
