@@ -2,6 +2,8 @@ import { revalidateTag } from 'next/cache';
 import { Card } from 'components/card';
 import { Markdown } from 'components/markdown';
 import { SubmitButton } from 'components/submit-button';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export const metadata = {
     title: 'On-Demand Revalidation'

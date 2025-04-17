@@ -78,7 +78,7 @@ export default function Page() {
             <section>
             <h1>Pixel Perspective</h1>
                 <h2 className="mb-6">A website meant to invoke the community driven review site LetterBoxd but for video game as opposed to movies.
-                    This site is my group's project for Weber States capstone class. </h2>
+                    This site is my groups project for Weber States capstone class. </h2>
                 <figure>
                     <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
                         <Image
