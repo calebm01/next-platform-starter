@@ -5,11 +5,10 @@ import githubLogo from 'public/images/github-mark-white.svg';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
-    { linkText: 'Revalidation', href: '/revalidation' },
-    { linkText: 'Image CDN', href: '/image-cdn' },
-    { linkText: 'Edge Function', href: '/edge' },
-    { linkText: 'Blobs', href: '/blobs' },
-    { linkText: 'Classics', href: '/classics' }
+    { linkText: 'Work in .Net', href: '/revalidation' },
+    { linkText: 'Work in Django', href: '/image-cdn' },
+    { linkText: 'Work in WPF', href: '/edge' },
+    { linkText: 'Contact Me', href: '/classics' }
 ];
 
 export function Header() {
@@ -30,7 +29,7 @@ export function Header() {
                 </ul>
             )}
             <Link
-                href="https://github.com/netlify-templates/next-platform-starter"
+                href="https://github.com/calebm01"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden lg:inline-flex lg:ml-auto"
