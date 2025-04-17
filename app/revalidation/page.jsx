@@ -31,7 +31,6 @@ export default async function Page() {
                             src="/images/SocialSiteMainPage.png"
                             priority
                             fill={true}
-                            style={{ objectFit: 'contain' }}
                             sizes="(max-width: 1024px) 100vw, 1024px"
                             alt="Corgi"
                         />
