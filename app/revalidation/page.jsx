@@ -8,7 +8,6 @@ export const metadata = {
 };
 
 const tagName = 'randomWiki';
-const randomWikiUrl = 'https://en.wikipedia.org/api/rest_v1/page/random/summary';
 const maxExtractLength = 200;
 const revalidateTTL = 60;
 
@@ -45,35 +44,26 @@ export default async function Page() {
 
     return (
         <>
-            <h1 className="mb-8">Revalidation Basics</h1>
-            <Markdown content={explainer} className="mb-6" />
-            <form className="mb-8" action={revalidateWiki}>
-                <SubmitButton text="Click to Revalidate" />
-            </form>
-            <RandomWikiArticle />
+            <h1 className="mb-8">Social Media Site</h1>
+            <section>
+                <h2 className="mb-6">This was a solo final project for my class at Weber State covering python and django backend and frontend.
+                    Its a very simple social media site meant to allow users to create posts, follow friends, and more. </h2>
+                <figure>
+                    <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
+                        <Image
+                            src="/images/SocialSiteMainPage.png"
+                            priority
+                            fill={true}
+                            style={{ objectFit: 'contain' }}
+                            sizes="(max-width: 1024px) 100vw, 1024px"
+                            alt="Corgi"
+                        />
+                    </div>
+                </figure>
+                <Link href="https://github.com/calebm01/CS3620_FinalProject">
+                    Repository Link
+                </Link>
+            </section>
         </>
-    );
-}
-
-async function RandomWikiArticle() {
-    const randomWiki = await fetch(randomWikiUrl, {
-        next: { revalidate: revalidateTTL, tags: [tagName] }
-    });
-
-    const content = await randomWiki.json();
-    let extract = content.extract;
-    if (extract.length > maxExtractLength) {
-        extract = extract.slice(0, extract.slice(0, maxExtractLength).lastIndexOf(' ')) + ' [...]';
-    }
-
-    return (
-        <Card className="max-w-2xl">
-            <h3 className="text-2xl text-neutral-900">{content.title}</h3>
-            <div className="text-lg font-bold">{content.description}</div>
-            <p className="italic">{extract}</p>
-            <a target="_blank" rel="noopener noreferrer" href={content.content_urls.desktop.page}>
-                From Wikipedia
-            </a>
-        </Card>
     );
 }
