@@ -43,7 +43,7 @@ export default function FallbackPage() {
             <section>
                 <h2 className="mb-6">The final project for my course at weber state covering WPF applications.
                     Me and my group were tasked to create an invoice system suitable for a business to update and manage a sizeable inventory.
-                    In particular in this project, I worked on the "Item Window" which allowed administration to add, edit, and delete items within the inventory.</h2>
+                    In particular in this project, I worked on the Item Window which allowed administration to add, edit, and delete items within the inventory.</h2>
 
                 <Link href="https://github.com/cameron-mckay/InvoiceSystem">
                     Repository Link
