@@ -67,7 +67,6 @@ export default function Page() {
                             src="/images/ServiCodeHome.png"
                             priority
                             fill={true}
-                            style={{ objectFit: 'contain' }}
                             sizes="(max-width: 1024px) 100vw, 1024px"
                             alt="Corgi"
                         />
@@ -85,7 +84,6 @@ export default function Page() {
                             src="/images/PixelPerspectiveMain.png"
                             priority
                             fill={true}
-                            style={{ objectFit: 'contain' }}
                             sizes="(max-width: 1024px) 100vw, 1024px"
                             alt="Corgi"
                         />
@@ -97,7 +95,6 @@ export default function Page() {
                             src="/images/PixelPerspectiveProfile.png"
                             priority
                             fill={true}
-                            style={{ objectFit: 'contain' }}
                             sizes="(max-width: 1024px) 100vw, 1024px"
                             alt="Corgi"
                         />
