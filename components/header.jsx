@@ -5,8 +5,8 @@ import githubLogo from 'public/images/github-mark-white.svg';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
-    { linkText: 'Work in .Net', href: '/revalidation' },
-    { linkText: 'Work in Django', href: '/image-cdn' },
+    { linkText: 'Work in Django', href: '/revalidation' },
+    { linkText: 'Work in .Net', href: '/image-cdn' },
     { linkText: 'Work in WPF', href: '/edge' },
     { linkText: 'Contact Me', href: '/classics' }
 ];

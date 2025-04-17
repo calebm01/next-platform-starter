@@ -12,11 +12,6 @@ const image1 = '/images/ServiCodeHome.png';
 
 const ctx = getNetlifyContext();
 const forceWebP = ctx === 'dev';
-const sampleImageSrcSet = [640, 1280, 2048]
-    .map((size) => {
-        return `/.netlify/images?url=${sampleImage}&w=${size}${forceWebP ? '&fm=webp' : ''} ${size}w`;
-    })
-    .join(', ');
 
 const nextImageSnippet = `
 When running on Netlify, \`next/image\` is automatically set-up to use Netlify Image CDN for optimized images.
