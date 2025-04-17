@@ -8,7 +8,7 @@ export const metadata = {
     title: 'Image CDN'
 };
 
-const sampleImage = '/images/corgi.jpg';
+const image1 = '/images/ServiCodeHome.png';
 
 const ctx = getNetlifyContext();
 const forceWebP = ctx === 'dev';
@@ -61,15 +61,16 @@ export default function Page() {
                     }}
                     className="mb-6"
                 />
-                <h1>Image CDN</h1>
+                <h1>ServiCode LMS</h1>
             </section>
             <section>
-                <h2 className="mb-6">Using next/image component</h2>
+                <h2 className="mb-6">A learning management system myself and my group were tasked to create for our Software Engineering II class at Weber State University.
+                    This project is meant to invoke the systems employed in a well known service like Canvas. </h2>
                 <Markdown content={nextImageSnippet} className="mb-8" />
                 <figure>
                     <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
                         <Image
-                            src="/images/corgi.jpg"
+                            src="/images/ServiCodeHome.png"
                             priority
                             fill={true}
                             style={{ objectFit: 'contain' }}
@@ -77,40 +78,6 @@ export default function Page() {
                             alt="Corgi"
                         />
                     </div>
-                    <figcaption className="mt-2 text-sm italic">
-                        Credit: photo by{' '}
-                        <a href="https://unsplash.com/@alvannee?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
-                            Alvan Nee
-                        </a>{' '}
-                        on{' '}
-                        <a href="https://unsplash.com/photos/long-coated-white-and-brown-dog-lvFlpqEvuRM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
-                            Unsplash
-                        </a>
-                    </figcaption>
-                </figure>
-            </section>
-            <section>
-                <h2 className="mb-6">Original vs. optimized image: can you tell the difference?</h2>
-                <Markdown content={originalVsCdnSnippet} className="mb-8" />
-                <figure
-                    className="relative grid w-full overflow-hidden border-2 border-white rounded-lg select-none diff aspect-3/2"
-                    tabIndex="0"
-                >
-                    <div className="relative col-start-1 row-start-1 overflow-hidden border-r-2 z-1 border-r-white diff-item-1">
-                        <div>
-                            <ImageWithSizeOverlay src="/images/corgi.jpg" />
-                        </div>
-                    </div>
-                    <div className="relative col-start-1 row-start-1 diff-item-2" tabIndex="0">
-                        <div>
-                            <ImageWithSizeOverlay
-                                srcSet={sampleImageSrcSet}
-                                sizes={sampleImageSrcSet}
-                                overlayPosition="right"
-                            />
-                        </div>
-                    </div>
-                    <div className="relative h-2 col-start-1 row-start-1 overflow-hidden opacity-0 resize-x diff-resizer z-1 min-w-4 cursor-ew-resize top-1/2"></div>
                 </figure>
             </section>
         </div>
