@@ -26,6 +26,7 @@ export default function FallbackPage() {
                     </div>
                 </figure>
                 
+                <figure>
                     <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
                         <Image
                             src="/images/AirlineReservation2.png"
@@ -34,7 +35,8 @@ export default function FallbackPage() {
                             sizes="(max-width: 1024px) 100vw, 1024px"
                             alt="Corgi"
                         />
-                    </div>              
+                    </div>
+                </figure>              
             </section>
             <Link href="https://github.com/calebm01/Airline-Reservation-System">
                     Repository Link

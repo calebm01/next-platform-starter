@@ -1,21 +1,17 @@
 import { FeedbackForm } from 'components/feedback-form';
 import { Markdown } from 'components/markdown';
+import Link from 'next/link';
 
 export const metadata = {
     title: 'Classics'
 };
 
-const explainer = `
-Email: calebrmouritsen@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/caleb-mouritsen-90398533b/.
-`;
-
 export default async function Page() {
     return (
         <>
             <h1 className="mb-8">Contact Me</h1>
-            <Markdown content={explainer} className="mb-12" />
+            <h3>Email: calebrmouritsen@gmail.com </h3>
+            <h3><Link href="https://www.linkedin.com/in/caleb-mouritsen-90398533b/"></Link>LinkedIn</h3>
         </>
     );
 }

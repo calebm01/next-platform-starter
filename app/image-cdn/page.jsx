@@ -80,6 +80,9 @@ export default function Page() {
 
             <section>
             <h1>Pixel Perspective</h1>
+            </section>
+
+            <section>
                 <p className="mb-6">A website meant to invoke the community driven review site LetterBoxd but for video games as opposed to movies.
                     This site is my groups project for Weber States capstone class. </p>
                 <figure>
