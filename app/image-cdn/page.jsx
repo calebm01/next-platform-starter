@@ -59,8 +59,8 @@ export default function Page() {
                 <h1>ServiCode LMS</h1>
             </section>
             <section>
-                <h2 className="mb-6">A learning management system myself and my group were tasked to create for our Software Engineering II class at Weber State University.
-                    This project is meant to invoke the systems employed in a well known service like Canvas. </h2>
+                <p className="mb-6">A learning management system myself and my group were tasked to create for our Software Engineering II class at Weber State University.
+                    This project is meant to invoke the systems employed in a well known service like Canvas. </p>
                 <figure>
                     <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
                         <Image
@@ -72,12 +72,15 @@ export default function Page() {
                         />
                     </div>
                 </figure>
+                <Link href="https://github.com/calebm01/ServiCode-LMS">
+                                    Repository Link
+                </Link>
             </section>
 
             <section>
             <h1>Pixel Perspective</h1>
-                <h2 className="mb-6">A website meant to invoke the community driven review site LetterBoxd but for video games as opposed to movies.
-                    This site is my groups project for Weber States capstone class. </h2>
+                <p className="mb-6">A website meant to invoke the community driven review site LetterBoxd but for video games as opposed to movies.
+                    This site is my groups project for Weber States capstone class. </p>
                 <figure>
                     <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
                         <Image
@@ -100,6 +103,9 @@ export default function Page() {
                         />
                     </div>
                 </figure>
+                <Link href="https://github.com/jstewart4u2c/PixelPerspective">
+                                    Repository Link
+                </Link>
             </section>
         </div>
     );
