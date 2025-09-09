@@ -3,6 +3,7 @@ import { ImageWithSizeOverlay } from './image-with-size-overlay';
 import { ContextAlert } from 'components/context-alert';
 import { Markdown } from 'components/markdown';
 import { getNetlifyContext } from 'utils';
+import Link from 'next/link';
 
 export const metadata = {
     title: '.Net Work'
@@ -73,7 +74,7 @@ export default function Page() {
                     </div>
                 </figure>
                 <Link href="https://github.com/calebm01/ServiCode-LMS">
-                                    Repository Link
+                    Repository Link
                 </Link>
             </section>
 
@@ -104,7 +105,7 @@ export default function Page() {
                     </div>
                 </figure>
                 <Link href="https://github.com/jstewart4u2c/PixelPerspective">
-                                    Repository Link
+                    Repository Link
                 </Link>
             </section>
         </div>
