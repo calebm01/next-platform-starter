@@ -11,9 +11,9 @@ export default function Page() {
         <>
             <h1 className="mb-8">Airline Seat Reservation System</h1>
             <section>
-                <h4>This assignment was the last solo venture we were tasked with in my WPF class at Weber State University.
+                <h3>This assignment was the last solo venture we were tasked with in my WPF class at Weber State University.
                     This project entailed creating a system for users to view 2 plane seating arrangements.
-                    Users can click on seats to occupy them, and also have the option to change seating, or remove their seat entirely.</h4>
+                    Users can click on seats to occupy them, and also have the option to change seating, or remove their seat entirely.</h3>
                 <figure>
                     <div className="inline-block overflow-hidden border-2 border-white rounded-lg">
                         <Image
@@ -43,9 +43,9 @@ export default function Page() {
             </section>
 
             <section>
-                <h4>The final project for my course at weber state covering WPF applications.
+                <h3>The final project for my course at weber state covering WPF applications.
                     Me and my group were tasked to create an invoice system suitable for a business to update and manage a sizeable inventory.
-                    In particular in this project, I worked on the Item Window which allowed administration to add, edit, and delete items within the inventory.</h4>
+                    In particular in this project, I worked on the Item Window which allowed administration to add, edit, and delete items within the inventory.</h3>
 
                 <Link href="https://github.com/cameron-mckay/InvoiceSystem">
                     Repository Link
