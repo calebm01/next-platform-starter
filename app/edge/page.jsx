@@ -15,11 +15,9 @@ export default function FallbackPage() {
                     This project entailed creating a system for users to view 2 plane seating arrangements.
                     Users can click on seats to occupy them, and also have the option to change seating, or remove their seat entirely.</h4>
                 <figure>
-                    <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
+                    <div className="inline-block overflow-hidden border-2 border-white rounded-lg">
                         <Image
                             src="/images/AirlineReservation.png"
-                            priority
-                            fill={true}
                             sizes="(max-width: 1024px) 100vw, 1024px"
                             alt="Corgi"
                         />
@@ -27,11 +25,9 @@ export default function FallbackPage() {
                 </figure>
                 
                 <figure>
-                    <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
+                    <div className="inline-block overflow-hidden border-2 border-white rounded-lg">
                         <Image
                             src="/images/AirlineReservation2.png"
-                            priority
-                            fill={true}
                             sizes="(max-width: 1024px) 100vw, 1024px"
                             alt="Corgi"
                         />
@@ -45,7 +41,7 @@ export default function FallbackPage() {
             <section>
             <h1 className="mb-8">Invoice System</h1>
             </section>
-            
+
             <section>
                 <h4>The final project for my course at weber state covering WPF applications.
                     Me and my group were tasked to create an invoice system suitable for a business to update and manage a sizeable inventory.

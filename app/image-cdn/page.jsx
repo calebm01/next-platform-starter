@@ -63,11 +63,9 @@ export default function Page() {
                 <h3>A learning management system myself and my group were tasked to create for our Software Engineering II class at Weber State University.
                     This project is meant to invoke the learning systems utilized in well known services like Canvas. </h3>
                 <figure>
-                    <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
+                    <div className="inline-block overflow-hidden border-2 border-white rounded-lg">
                         <Image
                             src="/images/ServiCodeHome.png"
-                            priority
-                            fill={true}
                             sizes="(max-width: 1024px) 100vw, 1024px"
                             alt="Corgi"
                         />
@@ -86,7 +84,7 @@ export default function Page() {
                 <h3> A website meant to invoke the community driven review site LetterBoxd but for video games as opposed to movies.
                     This site was my group project for the Weber State Capstone class. </h3>
                 <figure>
-                    <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
+                    <div className="inline-block overflow-hidden border-2 border-white rounded-lg">
                         <Image
                             src="/images/PixelPerspectiveMain.png"
                             sizes="(max-width: 1024px) 100vw, 1024px"
@@ -95,7 +93,7 @@ export default function Page() {
                     </div>
                 </figure>
                 <figure>
-                    <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
+                    <div className="inline-block overflow-hidden border-2 border-white rounded-lg">
                         <Image
                             src="/images/PixelPerspectiveProfile.png"
                             sizes="(max-width: 1024px) 100vw, 1024px"
