@@ -6,7 +6,7 @@ export const metadata = {
     title: 'WPF Work'
 };
 
-export default function FallbackPage() {
+export default function Page() {
     return (
         <>
             <h1 className="mb-8">Airline Seat Reservation System</h1>

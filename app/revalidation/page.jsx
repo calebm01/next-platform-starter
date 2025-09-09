@@ -29,8 +29,7 @@ export default async function Page() {
                     <div className="inline-block overflow-hidden border-2 border-white rounded-lg">
                         <Image
                             src="/images/SocialSiteMainPage.png"
-                            width={512} // Set to your image's natural width
-                            height={341} // Set to your image's natural height (for 3:2 ratio, 512x341)
+                            sizes="(max-width: 1024px) 100vw, 1024px"
                             alt="Corgi"
                         />
                     </div>
