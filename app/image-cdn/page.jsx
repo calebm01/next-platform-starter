@@ -60,8 +60,8 @@ export default function Page() {
                 <h1>ServiCode LMS</h1>
             </section>
             <section>
-                <p className="mb-6">A learning management system myself and my group were tasked to create for our Software Engineering II class at Weber State University.
-                    This project is meant to invoke the systems employed in a well known service like Canvas. </p>
+                <h4>A learning management system myself and my group were tasked to create for our Software Engineering II class at Weber State University.
+                    This project is meant to invoke the systems employed in a well known service like Canvas. </h4>
                 <figure>
                     <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
                         <Image
@@ -83,8 +83,8 @@ export default function Page() {
             </section>
 
             <section>
-                <p className="mb-6">A website meant to invoke the community driven review site LetterBoxd but for video games as opposed to movies.
-                    This site is my groups project for Weber States capstone class. </p>
+                <h4> A website meant to invoke the community driven review site LetterBoxd but for video games as opposed to movies.
+                    This site is my groups project for Weber States capstone class. </h4>
                 <figure>
                     <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
                         <Image
