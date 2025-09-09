@@ -11,7 +11,7 @@ export default function FallbackPage() {
         <>
             <h1 className="mb-8">Airline Seat Reservation System</h1>
             <section>
-                <h4>"This assignment was the last solo venture we were tasked with in my WPF class at Weber State University.
+                <h4>This assignment was the last solo venture we were tasked with in my WPF class at Weber State University.
                     This project entailed creating a system for users to view 2 plane seating arrangements.
                     Users can click on seats to occupy them, and also have the option to change seating, or remove their seat entirely.</h4>
                 <figure>
