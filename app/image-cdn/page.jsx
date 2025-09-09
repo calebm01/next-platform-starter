@@ -60,7 +60,7 @@ export default function Page() {
                 <h1>ServiCode LMS</h1>
             </section>
             <section>
-                <h3>A learning management system myself and my group were tasked to create for our Software Engineering II class at Weber State University.
+                <h3 className="mb-6">A learning management system myself and my group were tasked to create for our Software Engineering II class at Weber State University.
                     This project is meant to invoke the learning systems utilized in well known services like Canvas. </h3>
                 <figure>
                     <div className="inline-block overflow-hidden border-2 border-white rounded-lg">
@@ -81,7 +81,7 @@ export default function Page() {
             </section>
 
             <section>
-                <h3> A website meant to invoke the community driven review site LetterBoxd but for video games as opposed to movies.
+                <h3 className="mb-6"> A website meant to invoke the community driven review site LetterBoxd but for video games as opposed to movies.
                     This site was my group project for the Weber State Capstone class. </h3>
                 <figure>
                     <div className="inline-block overflow-hidden border-2 border-white rounded-lg mb-6">
