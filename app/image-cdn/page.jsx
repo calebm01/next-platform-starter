@@ -84,7 +84,7 @@ export default function Page() {
                 <h3> A website meant to invoke the community driven review site LetterBoxd but for video games as opposed to movies.
                     This site was my group project for the Weber State Capstone class. </h3>
                 <figure>
-                    <div className="inline-block overflow-hidden border-2 border-white rounded-lg">
+                    <div className="inline-block overflow-hidden border-2 border-white rounded-lg mb-6">
                         <Image
                             src="/images/PixelPerspectiveMain.png"
                             sizes="(max-width: 1024px) 100vw, 1024px"
@@ -93,7 +93,7 @@ export default function Page() {
                     </div>
                 </figure>
                 <figure>
-                    <div className="inline-block overflow-hidden border-2 border-white rounded-lg">
+                    <div className="inline-block overflow-hidden border-2 border-white rounded-lg mb-6">
                         <Image
                             src="/images/PixelPerspectiveProfile.png"
                             sizes="(max-width: 1024px) 100vw, 1024px"
