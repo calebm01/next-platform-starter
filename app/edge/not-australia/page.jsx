@@ -40,7 +40,7 @@ export default function FallbackPage() {
   
 
             <section>
-            <h1 className="mb-8">Invoice System</h1>
+            <h1 className="mb-8 mt-8">Invoice System</h1>
             </section>
 
             <section>

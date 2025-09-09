@@ -26,7 +26,7 @@ export default async function Page() {
                 <h3 className="mb-6">This was a solo final project for my class at Weber State covering python and django backend and frontend.
                     Its a very simple social media site meant to allow users to create posts, follow friends, and more. </h3>
                 <figure>
-                    <div className="inline-block overflow-hidden border-2 border-white rounded-lg">
+                    <div className="inline-block overflow-hidden border-2 border-white rounded-lg mb-6">
                         <Image
                             src="/images/SocialSiteMainPage.png"
                             sizes="(max-width: 1024px) 100vw, 1024px"

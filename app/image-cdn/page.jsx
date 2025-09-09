@@ -63,7 +63,7 @@ export default function Page() {
                 <h3 className="mb-6">A learning management system myself and my group were tasked to create for our Software Engineering II class at Weber State University.
                     This project is meant to invoke the learning systems utilized in well known services like Canvas. </h3>
                 <figure>
-                    <div className="inline-block overflow-hidden border-2 border-white rounded-lg">
+                    <div className="inline-block overflow-hidden border-2 border-white rounded-lg mb-6">
                         <Image
                             src="/images/ServiCodeHome.png"
                             sizes="(max-width: 1024px) 100vw, 1024px"
