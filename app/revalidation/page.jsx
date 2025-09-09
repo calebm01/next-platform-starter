@@ -23,8 +23,8 @@ export default async function Page() {
         <>
             <h1 className="mb-8">Social Media Site</h1>
             <section>
-                <h4 className="mb-6">This was a solo final project for my class at Weber State covering python and django backend and frontend.
-                    Its a very simple social media site meant to allow users to create posts, follow friends, and more. </h4>
+                <h3 className="mb-6">This was a solo final project for my class at Weber State covering python and django backend and frontend.
+                    Its a very simple social media site meant to allow users to create posts, follow friends, and more. </h3>
                 <figure>
                     <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
                         <Image

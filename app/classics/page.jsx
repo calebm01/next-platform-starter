@@ -11,7 +11,7 @@ export default async function Page() {
         <>
             <h1 className="mb-8">Contact Me</h1>
             <h3>Email: calebrmouritsen@gmail.com </h3>
-            <h3><Link href="https://www.linkedin.com/in/caleb-mouritsen-90398533b/"></Link>LinkedIn</h3>
+            <Link href="https://www.linkedin.com/in/caleb-mouritsen-90398533b/"> LinkedIn </Link>
         </>
     );
 }

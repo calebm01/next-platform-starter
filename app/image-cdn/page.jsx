@@ -60,8 +60,8 @@ export default function Page() {
                 <h1>ServiCode LMS</h1>
             </section>
             <section>
-                <h4>A learning management system myself and my group were tasked to create for our Software Engineering II class at Weber State University.
-                    This project is meant to invoke the systems employed in a well known service like Canvas. </h4>
+                <h3>A learning management system myself and my group were tasked to create for our Software Engineering II class at Weber State University.
+                    This project is meant to invoke the learning systems utilized in well known services like Canvas. </h3>
                 <figure>
                     <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
                         <Image
@@ -83,14 +83,12 @@ export default function Page() {
             </section>
 
             <section>
-                <h4> A website meant to invoke the community driven review site LetterBoxd but for video games as opposed to movies.
-                    This site is my groups project for Weber States capstone class. </h4>
+                <h3> A website meant to invoke the community driven review site LetterBoxd but for video games as opposed to movies.
+                    This site was my group project for the Weber State Capstone class. </h3>
                 <figure>
                     <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
                         <Image
                             src="/images/PixelPerspectiveMain.png"
-                            priority
-                            fill={true}
                             sizes="(max-width: 1024px) 100vw, 1024px"
                             alt="Corgi"
                         />
@@ -100,8 +98,6 @@ export default function Page() {
                     <div className="relative overflow-hidden border-2 border-white rounded-lg aspect-3/2">
                         <Image
                             src="/images/PixelPerspectiveProfile.png"
-                            priority
-                            fill={true}
                             sizes="(max-width: 1024px) 100vw, 1024px"
                             alt="Corgi"
                         />

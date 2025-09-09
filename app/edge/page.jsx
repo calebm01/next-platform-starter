@@ -42,7 +42,10 @@ export default function FallbackPage() {
                     Repository Link
                 </Link>
 
+            <section>
             <h1 className="mb-8">Invoice System</h1>
+            </section>
+            
             <section>
                 <h4>The final project for my course at weber state covering WPF applications.
                     Me and my group were tasked to create an invoice system suitable for a business to update and manage a sizeable inventory.
