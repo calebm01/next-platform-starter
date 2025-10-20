@@ -21,7 +21,7 @@ export function Header() {
                 <Image src={netlifyLogo} alt="Netlify logo" />
             </Link>
             {!!navItems?.length && (
-                <ul className="gap-x-4 gap-y-1">
+                <ul className="flex flex-wrap gap-x-4 gap-y-1">
                     {navItems.map((item, index) => (
                         <li key={index}>
                             <Link href={item.href} className="inline-flex px-1.5 py-1 sm:px-3 sm:py-2">
