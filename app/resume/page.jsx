@@ -15,7 +15,10 @@ export default function Page() {
             <section>
                 <ContextAlert className="mb-6" />
                 <p className="mb-6 text-lg">
-                    Link here to a pdf of my resume
+                    View my resume here:{' '}
+                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="underline">
+                        Open resume (PDF)
+                    </a>
                 </p>
                 
             </section>
