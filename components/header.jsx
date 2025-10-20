@@ -8,7 +8,10 @@ const navItems = [
     { linkText: 'Work in Django', href: '/revalidation' },
     { linkText: 'Work in .Net', href: '/image-cdn' },
     { linkText: 'Work in WPF', href: '/edge' },
+    { linkText: 'Internship', href: '/internship' },
+    { linkText: 'Resume', href: '/resume' },
     { linkText: 'Contact Me', href: '/classics' }
+
 ];
 
 export function Header() {
@@ -18,7 +21,7 @@ export function Header() {
                 <Image src={netlifyLogo} alt="Netlify logo" />
             </Link>
             {!!navItems?.length && (
-                <ul className="flex flex-wrap gap-x-4 gap-y-1">
+                <ul className="flex flex-wrap gap-x-4 gap-y-1 border border-red-500">
                     {navItems.map((item, index) => (
                         <li key={index}>
                             <Link href={item.href} className="inline-flex px-1.5 py-1 sm:px-3 sm:py-2">
